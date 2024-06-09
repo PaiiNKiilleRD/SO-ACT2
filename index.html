@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+           <div>
+            <h1>1-	¿Cuáles son las principales funciones de un kernel en la arquitectura de un sistema operativo y cómo interactúa con el hardware?</h1>
+            <p>
+                El kernel es el núcleo del sistema operativo y desempeña varias funciones fundamentales:
+                <br><br>
+                Gestión de memoria: Administra el uso de la memoria del sistema, asignando recursos a los procesos que lo necesitan y liberando memoria cuando ya no se utiliza.
+                <br><br>
+                Gestión de procesos: Controla la ejecución de los procesos del sistema, asignándoles recursos como la CPU y el tiempo de ejecución. También gestiona la creación, destrucción y suspensión de procesos.
+                <br><br>
+                Gestión de dispositivos: Facilita la comunicación entre el software y el hardware, permitiendo que los programas accedan a los dispositivos de manera uniforme.
+                <br><br>
+                Gestión de archivos: Proporciona una interfaz para que los programas accedan y manipulen archivos en el sistema de almacenamiento, asegurando la integridad y seguridad de los datos.
+                <br><br>
+                Control de seguridad y acceso: Aplica políticas de seguridad y controla el acceso a recursos del sistema, garantizando que los usuarios y los programas solo puedan realizar acciones autorizadas.
+            </p>
+           </div>
+            <div>
+                <h1>
+                    2-	¿Cómo se gestionan los procesos y cuál es la importancia de la multitarea en la eficiencia del sistema?
+                </h1>
+                <p>La gestión de procesos es una función fundamental del kernel en un sistema operativo. Consiste en administrar la ejecución de los procesos del sistema de manera eficiente y ordenada. Algunas de las principales actividades involucradas en la gestión de procesos son:
+                    <br><br>
+                    Planificación de CPU: El kernel decide qué proceso se ejecuta en la CPU en un momento dado, utilizando algoritmos de planificación para asignar recursos de manera justa y eficiente.
+                    <br><br>
+                    Creación y destrucción de procesos: El kernel permite la creación de nuevos procesos cuando se inician programas y los destruye cuando finalizan su ejecución, liberando los recursos asignados.
+                    <br><br>
+                    Sincronización y comunicación entre procesos: Facilita la comunicación y la sincronización entre procesos para garantizar que puedan trabajar juntos de manera cooperativa y compartir recursos de manera segura.
+                    <br><br>
+                    Gestión de la memoria: Controla el espacio de memoria asignado a cada proceso, garantizando que no se corrompan ni se sobrescriban entre sí.
+                    <br><br>
+                    Gestión del estado del proceso: Supervisa el estado de cada proceso, como si está en ejecución, en espera o suspendido, y toma medidas adecuadas según sea necesario.</p>
+            </div>
+            <div>
+                <h1>3-	¿Qué medidas de seguridad se pueden implementar a nivel de sistema operativo para proteger una red, especialmente en entornos empresariales?</h1>
+                <p>Para proteger una red en entornos empresariales, es crucial implementar medidas de seguridad a nivel del sistema operativo. Aquí hay algunas medidas importantes que se pueden implementar:
+                    <br><br>
+                    Firewalls de software: Configurar firewalls de software en cada dispositivo o en el servidor de la red para controlar el tráfico de red entrante y saliente, permitiendo únicamente las conexiones autorizadas.
+                    <br><br>
+                    Actualizaciones regulares: Mantener actualizado el sistema operativo y todas las aplicaciones con parches de seguridad y actualizaciones de software. Esto ayuda a cerrar vulnerabilidades conocidas y a proteger contra amenazas conocidas.
+                    <br><br>
+                    Políticas de seguridad: Implementar políticas de seguridad estrictas, como la autenticación de usuarios, contraseñas seguras, políticas de acceso basadas en roles y auditorías de seguridad regulares.
+                    <br><br>
+                    Encriptación de datos: Utilizar técnicas de encriptación para proteger la confidencialidad de los datos que se transmiten a través de la red y se almacenan en dispositivos de almacenamiento.
+                    <br><br>
+                    Control de acceso: Aplicar medidas de control de acceso para restringir quién puede acceder a recursos específicos en la red. Esto puede incluir el uso de listas de control de acceso (ACL) y la autenticación de dos factores.
+                    <br><br>
+                    Monitorización de la red: Implementar herramientas de monitorización de la red para detectar y responder a actividades sospechosas o maliciosas en tiempo real. Esto puede incluir la monitorización de registros, la detección de intrusiones y el análisis de comportamiento de la red.
+                    <br><br>
+                    Segmentación de red: Dividir la red en segmentos o subredes más pequeñas y seguras, utilizando firewalls y VLANs para limitar la propagación de amenazas en caso de compromiso de un dispositivo.
+                    <br><br>
+                    Backup y recuperación: Realizar copias de seguridad periódicas de los datos críticos y tener un plan de recuperación de desastres en su lugar para minimizar el impacto de incidentes de seguridad o fallos del sistema.</p>
+            </div>
+    </main>
+</body>
+</html>
+
+<style>
+  body {
+    background: #375edb;
+    padding: 10px 20px;
+  }
+  
+  div {
+    border-bottom: 2px solid #333;
+    padding: 10px 0;
+  }
+  div:last-child {
+    border: 0;
+    padding-bottom: 60px;
+  }
+</style>
